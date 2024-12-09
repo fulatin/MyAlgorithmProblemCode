@@ -3,3 +3,4 @@
 *.text
 *.in
 *.out
+*.o
