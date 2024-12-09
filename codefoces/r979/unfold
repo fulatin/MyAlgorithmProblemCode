@@ -1,0 +1,34 @@
+a.out;[ld-linux-x86-64.so.2] 1
+a.out;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2] 11
+a.out;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2] 2
+a.out;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2] 22
+a.out;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2] 16
+a.out;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2] 31
+a.out;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2] 42
+a.out;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2] 13
+a.out;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[unknown] 1
+a.out;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[unknown] 1
+a.out;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];_dl_catch_exception;[ld-linux-x86-64.so.2] 1
+a.out;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];_dl_catch_exception;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2] 5
+a.out;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];_dl_catch_exception;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2] 4
+a.out;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];_dl_catch_exception;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[unknown] 2
+a.out;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];_dl_catch_exception;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[unknown];[unknown] 1
+a.out;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];_dl_catch_exception;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[unknown];[unknown];[unknown] 1
+a.out;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[unknown];[unknown] 4
+a.out;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];wcslen 1
+a.out;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];_GLOBAL__sub_I.00090_globals_io.cc;std::ios_base_library_init 1
+a.out;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];_GLOBAL__sub_I.00090_globals_io.cc;std::ios_base_library_init;std::locale::locale;std::locale::_S_initialize_once;std::locale::_Impl::_Impl;std::ctype<wchar_t>::_M_initialize_ctype 1
+a.out;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];_GLOBAL__sub_I.00090_globals_io.cc;std::ios_base_library_init;std::locale::locale;std::locale::_S_initialize_once;std::locale::_Impl::_Impl;std::moneypunct<wchar_t, true>::_M_initialize_moneypunct 1
+a.out;[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];[unknown] 4
+a.out;[ld-linux-x86-64.so.2];[unknown] 2
+a.out;_start;__libc_start_main 1
+a.out;_start;__libc_start_main;[libc.so.6];[libc.so.6];[libc.so.6];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];__do_global_dtors_aux;__cxa_finalize 1
+a.out;_start;__libc_start_main;[libc.so.6];[libc.so.6];[libc.so.6];[ld-linux-x86-64.so.2];[ld-linux-x86-64.so.2];__do_global_dtors_aux;__cxa_finalize;std::ios_base::Init::~Init;std::basic_ostream<wchar_t, std::char_traits<wchar_t> >::flush 1
+a.out;_start;__libc_start_main;[libc.so.6];[libc.so.6];[libc.so.6];[libc.so.6];_IO_flush_all 1
+a.out;_start;__libc_start_main;[libc.so.6];main;solve;__isoc23_scanf;[libc.so.6] 1
+a.out;_start;__libc_start_main;[libc.so.6];main;solve;__isoc23_scanf;[libc.so.6];[unknown] 1
+a.out;_start;__libc_start_main;[libc.so.6];main;solve;__isoc23_scanf;[libc.so.6];_IO_default_uflow;read;[unknown] 1
+a.out;_start;__libc_start_main;[libc.so.6];main;solve;std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >;std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >;_IO_fwrite;_IO_file_xsputn;_IO_file_overflow;_IO_file_doallocate 1
+a.out;_start;__libc_start_main;[libc.so.6];main;solve;std::istream::operator>>;__gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow 1
+a.out;_start;__libc_start_main;[libc.so.6];main;solve;std::ostream::put 1
+a.out;_start;__libc_start_main;[libc.so.6];main;std::istream::operator>>;std::istreambuf_iterator<char, std::char_traits<char> > std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::_M_extract_int<long>;std::__use_cache<std::__numpunct_cache<char> >::operator 1

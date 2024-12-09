@@ -1,0 +1,442 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" width="1200" height="102" onload="init(evt)" viewBox="0 0 1200 102" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<!-- Flame graph stack visualization. See https://github.com/brendangregg/FlameGraph for latest version, and http://www.brendangregg.com/flamegraphs.html for examples. -->
+<!-- NOTES:  -->
+<defs >
+	<linearGradient id="background" y1="0" y2="1" x1="0" x2="0" >
+		<stop stop-color="#eeeeee" offset="5%" />
+		<stop stop-color="#eeeeb0" offset="95%" />
+	</linearGradient>
+</defs>
+<style type="text/css">
+	.func_g:hover { stroke:black; stroke-width:0.5; cursor:pointer; }
+</style>
+<script type="text/ecmascript">
+<![CDATA[
+	var details, searchbtn, matchedtxt, svg;
+	function init(evt) {
+		details = document.getElementById("details").firstChild;
+		searchbtn = document.getElementById("search");
+		matchedtxt = document.getElementById("matched");
+		svg = document.getElementsByTagName("svg")[0];
+		searching = 0;
+	}
+
+	// mouse-over for info
+	function s(node) {		// show
+		info = g_to_text(node);
+		details.nodeValue = "Function: " + info;
+	}
+	function c() {			// clear
+		details.nodeValue = ' ';
+	}
+
+	// ctrl-F for search
+	window.addEventListener("keydown",function (e) {
+		if (e.keyCode === 114 || (e.ctrlKey && e.keyCode === 70)) {
+			e.preventDefault();
+			search_prompt();
+		}
+	})
+
+	// functions
+	function find_child(parent, name, attr) {
+		var children = parent.childNodes;
+		for (var i=0; i<children.length;i++) {
+			if (children[i].tagName == name)
+				return (attr != undefined) ? children[i].attributes[attr].value : children[i];
+		}
+		return;
+	}
+	function orig_save(e, attr, val) {
+		if (e.attributes["_orig_"+attr] != undefined) return;
+		if (e.attributes[attr] == undefined) return;
+		if (val == undefined) val = e.attributes[attr].value;
+		e.setAttribute("_orig_"+attr, val);
+	}
+	function orig_load(e, attr) {
+		if (e.attributes["_orig_"+attr] == undefined) return;
+		e.attributes[attr].value = e.attributes["_orig_"+attr].value;
+		e.removeAttribute("_orig_"+attr);
+	}
+	function g_to_text(e) {
+		var text = find_child(e, "title").firstChild.nodeValue;
+		return (text)
+	}
+	function g_to_func(e) {
+		var func = g_to_text(e);
+		// if there's any manipulation we want to do to the function
+		// name before it's searched, do it here before returning.
+		return (func);
+	}
+	function update_text(e) {
+		var r = find_child(e, "rect");
+		var t = find_child(e, "text");
+		var w = parseFloat(r.attributes["width"].value) -3;
+		var txt = find_child(e, "title").textContent.replace(/\([^(]*\)$/,"");
+		t.attributes["x"].value = parseFloat(r.attributes["x"].value) +3;
+
+		// Smaller than this size won't fit anything
+		if (w < 2*12*0.59) {
+			t.textContent = "";
+			return;
+		}
+
+		t.textContent = txt;
+		// Fit in full text width
+		if (/^ *$/.test(txt) || t.getSubStringLength(0, txt.length) < w)
+			return;
+
+		for (var x=txt.length-2; x>0; x--) {
+			if (t.getSubStringLength(0, x+2) <= w) {
+				t.textContent = txt.substring(0,x) + "..";
+				return;
+			}
+		}
+		t.textContent = "";
+	}
+
+	// zoom
+	function zoom_reset(e) {
+		if (e.attributes != undefined) {
+			orig_load(e, "x");
+			orig_load(e, "width");
+		}
+		if (e.childNodes == undefined) return;
+		for(var i=0, c=e.childNodes; i<c.length; i++) {
+			zoom_reset(c[i]);
+		}
+	}
+	function zoom_child(e, x, ratio) {
+		if (e.attributes != undefined) {
+			if (e.attributes["x"] != undefined) {
+				orig_save(e, "x");
+				e.attributes["x"].value = (parseFloat(e.attributes["x"].value) - x - 10) * ratio + 10;
+				if(e.tagName == "text") e.attributes["x"].value = find_child(e.parentNode, "rect", "x") + 3;
+			}
+			if (e.attributes["width"] != undefined) {
+				orig_save(e, "width");
+				e.attributes["width"].value = parseFloat(e.attributes["width"].value) * ratio;
+			}
+		}
+
+		if (e.childNodes == undefined) return;
+		for(var i=0, c=e.childNodes; i<c.length; i++) {
+			zoom_child(c[i], x-10, ratio);
+		}
+	}
+	function zoom_parent(e) {
+		if (e.attributes) {
+			if (e.attributes["x"] != undefined) {
+				orig_save(e, "x");
+				e.attributes["x"].value = 10;
+			}
+			if (e.attributes["width"] != undefined) {
+				orig_save(e, "width");
+				e.attributes["width"].value = parseInt(svg.width.baseVal.value) - (10*2);
+			}
+		}
+		if (e.childNodes == undefined) return;
+		for(var i=0, c=e.childNodes; i<c.length; i++) {
+			zoom_parent(c[i]);
+		}
+	}
+	function zoom(node) {
+		var attr = find_child(node, "rect").attributes;
+		var width = parseFloat(attr["width"].value);
+		var xmin = parseFloat(attr["x"].value);
+		var xmax = parseFloat(xmin + width);
+		var ymin = parseFloat(attr["y"].value);
+		var ratio = (svg.width.baseVal.value - 2*10) / width;
+
+		// XXX: Workaround for JavaScript float issues (fix me)
+		var fudge = 0.0001;
+
+		var unzoombtn = document.getElementById("unzoom");
+		unzoombtn.style["opacity"] = "1.0";
+
+		var el = document.getElementsByTagName("g");
+		for(var i=0;i<el.length;i++){
+			var e = el[i];
+			var a = find_child(e, "rect").attributes;
+			var ex = parseFloat(a["x"].value);
+			var ew = parseFloat(a["width"].value);
+			// Is it an ancestor
+			if (0 == 0) {
+				var upstack = parseFloat(a["y"].value) > ymin;
+			} else {
+				var upstack = parseFloat(a["y"].value) < ymin;
+			}
+			if (upstack) {
+				// Direct ancestor
+				if (ex <= xmin && (ex+ew+fudge) >= xmax) {
+					e.style["opacity"] = "0.5";
+					zoom_parent(e);
+					e.onclick = function(e){unzoom(); zoom(this);};
+					update_text(e);
+				}
+				// not in current path
+				else
+					e.style["display"] = "none";
+			}
+			// Children maybe
+			else {
+				// no common path
+				if (ex < xmin || ex + fudge >= xmax) {
+					e.style["display"] = "none";
+				}
+				else {
+					zoom_child(e, xmin, ratio);
+					e.onclick = function(e){zoom(this);};
+					update_text(e);
+				}
+			}
+		}
+	}
+	function unzoom() {
+		var unzoombtn = document.getElementById("unzoom");
+		unzoombtn.style["opacity"] = "0.0";
+
+		var el = document.getElementsByTagName("g");
+		for(i=0;i<el.length;i++) {
+			el[i].style["display"] = "block";
+			el[i].style["opacity"] = "1";
+			zoom_reset(el[i]);
+			update_text(el[i]);
+		}
+	}
+
+	// search
+	function reset_search() {
+		var el = document.getElementsByTagName("rect");
+		for (var i=0; i < el.length; i++) {
+			orig_load(el[i], "fill")
+		}
+	}
+	function search_prompt() {
+		if (!searching) {
+			var term = prompt("Enter a search term (regexp " +
+			    "allowed, eg: ^ext4_)", "");
+			if (term != null) {
+				search(term)
+			}
+		} else {
+			reset_search();
+			searching = 0;
+			searchbtn.style["opacity"] = "0.1";
+			searchbtn.firstChild.nodeValue = "Search"
+			matchedtxt.style["opacity"] = "0.0";
+			matchedtxt.firstChild.nodeValue = ""
+		}
+	}
+	function search(term) {
+		var re = new RegExp(term);
+		var el = document.getElementsByTagName("g");
+		var matches = new Object();
+		var maxwidth = 0;
+		for (var i = 0; i < el.length; i++) {
+			var e = el[i];
+			if (e.attributes["class"].value != "func_g")
+				continue;
+			var func = g_to_func(e);
+			var rect = find_child(e, "rect");
+			if (rect == null) {
+				// the rect might be wrapped in an anchor
+				// if nameattr href is being used
+				if (rect = find_child(e, "a")) {
+				    rect = find_child(r, "rect");
+				}
+			}
+			if (func == null || rect == null)
+				continue;
+
+			// Save max width. Only works as we have a root frame
+			var w = parseFloat(rect.attributes["width"].value);
+			if (w > maxwidth)
+				maxwidth = w;
+
+			if (func.match(re)) {
+				// highlight
+				var x = parseFloat(rect.attributes["x"].value);
+				orig_save(rect, "fill");
+				rect.attributes["fill"].value =
+				    "rgb(230,0,230)";
+
+				// remember matches
+				if (matches[x] == undefined) {
+					matches[x] = w;
+				} else {
+					if (w > matches[x]) {
+						// overwrite with parent
+						matches[x] = w;
+					}
+				}
+				searching = 1;
+			}
+		}
+		if (!searching)
+			return;
+
+		searchbtn.style["opacity"] = "1.0";
+		searchbtn.firstChild.nodeValue = "Reset Search"
+
+		// calculate percent matched, excluding vertical overlap
+		var count = 0;
+		var lastx = -1;
+		var lastw = 0;
+		var keys = Array();
+		for (k in matches) {
+			if (matches.hasOwnProperty(k))
+				keys.push(k);
+		}
+		// sort the matched frames by their x location
+		// ascending, then width descending
+		keys.sort(function(a, b){
+			return a - b;
+		});
+		// Step through frames saving only the biggest bottom-up frames
+		// thanks to the sort order. This relies on the tree property
+		// where children are always smaller than their parents.
+		var fudge = 0.0001;	// JavaScript floating point
+		for (var k in keys) {
+			var x = parseFloat(keys[k]);
+			var w = matches[keys[k]];
+			if (x >= lastx + lastw - fudge) {
+				count += w;
+				lastx = x;
+				lastw = w;
+			}
+		}
+		// display matched percent
+		matchedtxt.style["opacity"] = "1.0";
+		pct = 100 * count / maxwidth;
+		if (pct == 100)
+			pct = "100"
+		else
+			pct = pct.toFixed(1)
+		matchedtxt.firstChild.nodeValue = "Matched: " + pct + "%";
+	}
+	function searchover(e) {
+		searchbtn.style["opacity"] = "1.0";
+	}
+	function searchout(e) {
+		if (searching) {
+			searchbtn.style["opacity"] = "1.0";
+		} else {
+			searchbtn.style["opacity"] = "0.1";
+		}
+	}
+]]>
+</script>
+<rect x="0.0" y="0" width="1200.0" height="102.0" fill="url(#background)"  />
+<text text-anchor="middle" x="600.00" y="24" font-size="17" font-family="Verdana" fill="rgb(0,0,0)"  >Flame Graph</text>
+<text text-anchor="" x="10.00" y="85" font-size="12" font-family="Verdana" fill="rgb(0,0,0)" id="details" > </text>
+<text text-anchor="" x="10.00" y="24" font-size="12" font-family="Verdana" fill="rgb(0,0,0)" id="unzoom" onclick="unzoom()" style="opacity:0.0;cursor:pointer" >Reset Zoom</text>
+<text text-anchor="" x="1090.00" y="24" font-size="12" font-family="Verdana" fill="rgb(0,0,0)" id="search" onmouseover="searchover()" onmouseout="searchout()" onclick="search_prompt()" style="opacity:0.1;cursor:pointer" >Search</text>
+<text text-anchor="" x="1090.00" y="85" font-size="12" font-family="Verdana" fill="rgb(0,0,0)" id="matched" > </text>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:           :76092   76092 [011]  2627.912684:     287670 cycles:P:  ffffffff9c3244eb pick_next_task_fair+0xb ([kernel.kallsyms]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (1,850 samples, 2.31%)</title><rect x="10.0" y="37" width="27.2" height="15.0" fill="rgb(253,221,3)" rx="2" ry="2" />
+<text text-anchor="" x="13.00" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >U..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:        (sd-rmrf)   76116 [006]  2628.771569:     283439 cycles:P:  ffffffffc132d4b5 [unknown] ([ext4]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (3,159 samples, 3.94%)</title><rect x="866.1" y="37" width="46.5" height="15.0" fill="rgb(233,154,25)" rx="2" ry="2" />
+<text text-anchor="" x="869.05" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Unre..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:        (sd-rmrf)   76115 [006]  2628.770501:     284306 cycles:P:  ffffffff9d201280 asm_exc_page_fault+0x0 ([kernel.kallsyms]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (3,134 samples, 3.91%)</title><rect x="357.0" y="37" width="46.1" height="15.0" fill="rgb(214,110,23)" rx="2" ry="2" />
+<text text-anchor="" x="359.98" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Unre..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:       (sd-close)   76114 [008]  2628.768068:     320667 cycles:P:  ffffffff9d066ed8 local_clock_noinstr+0x18 ([kernel.kallsyms]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (3,112 samples, 3.88%)</title><rect x="1052.3" y="37" width="45.9" height="15.0" fill="rgb(241,116,36)" rx="2" ry="2" />
+<text text-anchor="" x="1055.35" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Unre..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:        (sd-rmrf)   76116 [004]  2628.770863:      69379 cycles:P:  ffffffff9c899aaa _copy_from_user+0x2a ([kernel.kallsyms]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (3,140 samples, 3.92%)</title><rect x="634.6" y="37" width="46.2" height="15.0" fill="rgb(213,207,43)" rx="2" ry="2" />
+<text text-anchor="" x="637.56" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Unre..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:        (sd-rmrf)   76116 [006]  2628.771782:     289537 cycles:P:  ffffffff9c571a47 unmap_page_range+0x7c7 ([kernel.kallsyms]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (3,162 samples, 3.95%)</title><rect x="912.6" y="37" width="46.5" height="15.0" fill="rgb(226,120,5)" rx="2" ry="2" />
+<text text-anchor="" x="915.58" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Unre..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:           :76098   76098 [013]  2627.922174:     249406 cycles:P:  ffffffff9c347db0 task_wants_autogroup+0x0 ([kernel.kallsyms]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (1,921 samples, 2.40%)</title><rect x="92.4" y="37" width="28.3" height="15.0" fill="rgb(212,63,38)" rx="2" ry="2" />
+<text text-anchor="" x="95.37" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >U..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:           :76177   76177 [006]  2630.577694:     263789 cycles:P:  ffffffff9c3d3570 __cgroup_account_cputime+0x0 ([kernel.kallsyms]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (7,920 samples, 9.88%)</title><rect x="194.2" y="37" width="116.6" height="15.0" fill="rgb(215,175,18)" rx="2" ry="2" />
+<text text-anchor="" x="197.20" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Unrecognized l..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:       (sd-close)   76114 [011]  2628.768516:     169301 cycles:P:  ffffffff9c37b7c1 __rcu_read_unlock+0x11 ([kernel.kallsyms]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (3,117 samples, 3.89%)</title><rect x="1098.2" y="37" width="45.9" height="15.0" fill="rgb(220,159,50)" rx="2" ry="2" />
+<text text-anchor="" x="1101.18" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Unre..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:        (sd-rmrf)   76116 [004]  2628.771225:     161607 cycles:P:  ffffffff9c311093 migrate_enable+0x73 ([kernel.kallsyms]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (3,149 samples, 3.93%)</title><rect x="819.7" y="37" width="46.4" height="15.0" fill="rgb(235,172,13)" rx="2" ry="2" />
+<text text-anchor="" x="822.68" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Unre..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:        (sd-rmrf)   76115 [006]  2628.771103:     267649 cycles:P:  ffffffff9c571805 unmap_page_range+0x585 ([kernel.kallsyms]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (3,146 samples, 3.93%)</title><rect x="495.6" y="37" width="46.3" height="15.0" fill="rgb(222,86,2)" rx="2" ry="2" />
+<text text-anchor="" x="498.59" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Unre..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:        (sd-rmrf)   76115 [006]  2628.770897:     258813 cycles:P:  ffffffff9c57185c unmap_page_range+0x5dc ([kernel.kallsyms]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (3,141 samples, 3.92%)</title><rect x="449.3" y="37" width="46.3" height="15.0" fill="rgb(244,24,54)" rx="2" ry="2" />
+<text text-anchor="" x="452.33" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Unre..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:        (sd-rmrf)   76116 [004]  2628.771000:      90978 cycles:P:  ffffffff9c3089dc ttwu_queue_wakelist+0x8c ([kernel.kallsyms]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (3,143 samples, 3.92%)</title><rect x="727.1" y="37" width="46.3" height="15.0" fill="rgb(237,92,5)" rx="2" ry="2" />
+<text text-anchor="" x="730.08" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Unre..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:           :76095   76095 [015]  2627.913510:     257592 cycles:P:  ffffffff9c3379cc record_times+0x1c ([kernel.kallsyms]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (1,857 samples, 2.32%)</title><rect x="37.2" y="37" width="27.4" height="15.0" fill="rgb(240,42,48)" rx="2" ry="2" />
+<text text-anchor="" x="40.24" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >U..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:        (sd-rmrf)   76115 [006]  2628.770697:     254453 cycles:P:  ffffffff9c640b91 cp_new_stat+0x41 ([kernel.kallsyms]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (3,137 samples, 3.92%)</title><rect x="403.1" y="37" width="46.2" height="15.0" fill="rgb(240,186,41)" rx="2" ry="2" />
+<text text-anchor="" x="406.13" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Unre..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>all (80,126 samples, 100%)</title><rect x="10.0" y="53" width="1180.0" height="15.0" fill="rgb(209,189,47)" rx="2" ry="2" />
+<text text-anchor="" x="13.00" y="63.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  ></text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:           :76096   76096 [004]  2627.917248:     182084 cycles:P:  ffffffff9c330a89 __update_load_avg_cfs_rq+0x39 ([kernel.kallsyms]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (1,886 samples, 2.35%)</title><rect x="64.6" y="37" width="27.8" height="15.0" fill="rgb(237,157,24)" rx="2" ry="2" />
+<text text-anchor="" x="67.59" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >U..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:           :76136   76136 [005]  2629.238519:     310042 cycles:P:  ffffffff9c2c4fb6 do_exit+0x736 ([kernel.kallsyms]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (4,994 samples, 6.23%)</title><rect x="120.7" y="37" width="73.5" height="15.0" fill="rgb(243,199,47)" rx="2" ry="2" />
+<text text-anchor="" x="123.66" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Unrecogn..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:        (sd-rmrf)   76116 [004]  2628.770754:      76888 cycles:P:      7a3e9519021c [unknown] (/usr/lib/libc.so.6) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (3,138 samples, 3.92%)</title><rect x="588.4" y="37" width="46.2" height="15.0" fill="rgb(230,55,29)" rx="2" ry="2" />
+<text text-anchor="" x="591.35" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Unre..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:        (sd-rmrf)   76115 [006]  2628.770281:     277577 cycles:P:  ffffffff9c76a0ed security_mmap_file+0x5d ([kernel.kallsyms]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (3,133 samples, 3.91%)</title><rect x="310.8" y="37" width="46.2" height="15.0" fill="rgb(237,46,6)" rx="2" ry="2" />
+<text text-anchor="" x="313.84" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Unre..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:        (sd-rmrf)   76115 [006]  2628.771317:     276075 cycles:P:  ffffffff9c609262 uncharge_folio+0x112 ([kernel.kallsyms]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (3,153 samples, 3.94%)</title><rect x="541.9" y="37" width="46.5" height="15.0" fill="rgb(206,179,16)" rx="2" ry="2" />
+<text text-anchor="" x="544.92" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Unre..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:       (sd-close)   76114 [011]  2628.768636:     153200 cycles:P:  ffffffff9c5b3595 __slab_free+0x5 ([kernel.kallsyms]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (3,118 samples, 3.89%)</title><rect x="1144.1" y="37" width="45.9" height="15.0" fill="rgb(243,77,32)" rx="2" ry="2" />
+<text text-anchor="" x="1147.08" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Unre..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:        (sd-rmrf)   76116 [004]  2628.771099:     124112 cycles:P:  ffffffff9d0670f0 syscall_exit_to_user_mode+0x10 ([kernel.kallsyms]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (3,145 samples, 3.93%)</title><rect x="773.4" y="37" width="46.3" height="15.0" fill="rgb(205,115,31)" rx="2" ry="2" />
+<text text-anchor="" x="776.36" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Unre..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:        (sd-rmrf)   76116 [006]  2628.772193:     282712 cycles:P:  ffffffff9c60bd61 __memcg_slab_free_hook+0xe1 ([kernel.kallsyms]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (3,165 samples, 3.95%)</title><rect x="1005.7" y="37" width="46.6" height="15.0" fill="rgb(223,83,36)" rx="2" ry="2" />
+<text text-anchor="" x="1008.74" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Unre..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:        (sd-rmrf)   76116 [006]  2628.771986:     276795 cycles:P:  ffffffff9cfce84c mas_find+0xc ([kernel.kallsyms]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (3,164 samples, 3.95%)</title><rect x="959.1" y="37" width="46.6" height="15.0" fill="rgb(215,15,45)" rx="2" ry="2" />
+<text text-anchor="" x="962.14" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Unre..</text>
+</g>
+<g class="func_g" onmouseover="s(this)" onmouseout="c()" onclick="zoom(this)">
+<title>Unrecognized line:        (sd-rmrf)   76116 [004]  2628.770927:      78393 cycles:P:  ffffffff9d077747 _raw_spin_lock+0x17 ([kernel.kallsyms]) at /usr/bin/stackcollapse-perf.pl line 339, &lt;&gt; line (3,142 samples, 3.92%)</title><rect x="680.8" y="37" width="46.3" height="15.0" fill="rgb(251,8,40)" rx="2" ry="2" />
+<text text-anchor="" x="683.81" y="47.5" font-size="12" font-family="Verdana" fill="rgb(0,0,0)"  >Unre..</text>
+</g>
+</svg>

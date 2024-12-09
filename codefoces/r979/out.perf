@@ -1,0 +1,1443 @@
+a.out  108705  3421.338514:          1 cycles:Pu: 
+	ffffffffbc001280 [unknown] ([unknown])
+	    78c1e44aadc0 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338541:          1 cycles:Pu: 
+	    78c1e44abb00 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338547:          1 cycles:Pu: 
+	ffffffffbc001280 [unknown] ([unknown])
+	    78c1e44abb00 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338559:          1 cycles:Pu: 
+	    78c1e44abb48 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338565:          2 cycles:Pu: 
+	ffffffffbc001280 [unknown] ([unknown])
+	    78c1e44abb48 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338576:          2 cycles:Pu: 
+	    78c1e44abb9a [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338582:          3 cycles:Pu: 
+	    78c1e44abb9a [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338587:          4 cycles:Pu: 
+	    78c1e44abb9a [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338592:          5 cycles:Pu: 
+	    78c1e44abc43 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338598:          7 cycles:Pu: 
+	ffffffffbc001280 [unknown] ([unknown])
+	    78c1e44abc43 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338607:          9 cycles:Pu: 
+	    78c1e44abdf6 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338613:         11 cycles:Pu: 
+	ffffffffbc001280 [unknown] ([unknown])
+	    78c1e44abdf6 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338623:         12 cycles:Pu: 
+	    78c1e44abe12 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338629:         15 cycles:Pu: 
+	    78c1e44abf36 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338634:         16 cycles:Pu: 
+	    78c1e44abfda [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338640:         20 cycles:Pu: 
+	ffffffffbc001280 [unknown] ([unknown])
+	    78c1e44abfda [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338650:         25 cycles:Pu: 
+	    78c1e449e6db [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338656:         31 cycles:Pu: 
+	    78c1e44aa704 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338661:         33 cycles:Pu: 
+	    78c1e44a98c8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa720 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338667:         41 cycles:Pu: 
+	    78c1e44a98d8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa720 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338672:         51 cycles:Pu: 
+	    78c1e44a9932 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa720 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338678:         63 cycles:Pu: 
+	    78c1e44a0944 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338684:         78 cycles:Pu: 
+	ffffffffbbe63025 [unknown] ([unknown])
+	ffffffffbc00128d [unknown] ([unknown])
+	    78c1e44a097d [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa72c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338697:         95 cycles:Pu: 
+	    78c1e44a0a12 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa72c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338703:        116 cycles:Pu: 
+	ffffffffbbe63025 [unknown] ([unknown])
+	ffffffffbc00128d [unknown] ([unknown])
+	    78c1e44a0a1c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa72c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338714:        120 cycles:Pu: 
+	    78c1e44a0a3d [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa72c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338720:        143 cycles:Pu: 
+	    78c1e44a0a35 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa72c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338725:        151 cycles:Pu: 
+	    78c1e44a0a19 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa72c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338731:        184 cycles:Pu: 
+	    78c1e44a0980 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa72c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338736:        225 cycles:Pu: 
+	    78c1e44a0a20 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa72c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338742:        277 cycles:Pu: 
+	    78c1e44a09f8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa72c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338748:        340 cycles:Pu: 
+	    78c1e44a0a31 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa72c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338754:        412 cycles:Pu: 
+	    78c1e44a0a5b [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa72c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338760:        503 cycles:Pu: 
+	    78c1e44a09cc [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa72c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338766:        612 cycles:Pu: 
+	    78c1e44a0a3d [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa72c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338772:        743 cycles:Pu: 
+	    78c1e44a0a1c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa72c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338777:        898 cycles:Pu: 
+	    78c1e44a09d7 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa72c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338783:       1081 cycles:Pu: 
+	    78c1e44a0a61 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa72c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338789:       1326 cycles:Pu: 
+	    78c1e44a0a6b [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa72c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338795:       1623 cycles:Pu: 
+	    78c1e44a09c5 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa72c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338801:       1973 cycles:Pu: 
+	    78c1e44a0a0b [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa72c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338807:       2374 cycles:Pu: 
+	    78c1e44a0a3d [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa72c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338817:       2832 cycles:Pu: 
+	    78c1e44b00c4 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338825:       3334 cycles:Pu: 
+	    78c1e44a3712 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44a50e8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa73d [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338833:       3574 cycles:Pu: 
+	    78c1e44a4413 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44a516a [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa73d [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338841:       3980 cycles:Pu: 
+	    78c1e44a328a [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44a5664 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa73d [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338849:       4529 cycles:Pu: 
+	    78c1e44a326c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44a56f6 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa73d [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338857:       5067 cycles:Pu: 
+	    78c1e44a7fc4 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338866:       5712 cycles:Pu: 
+	ffffffffbbe6300c [unknown] ([unknown])
+	ffffffffbc00128d [unknown] ([unknown])
+	    78c1e44a7fc4 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338887:       6307 cycles:Pu: 
+	ffffffffbbe63025 [unknown] ([unknown])
+	ffffffffbc00128d [unknown] ([unknown])
+	    78c1e44ad0e0 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338902:       6968 cycles:Pu: 
+	    78c1e44b3b35 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449711b [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ada52 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338916:       6762 cycles:Pu: 
+	    78c1e4491746 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44add1f [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338950:       6798 cycles:Pu: 
+	ffffffffbbe63025 [unknown] ([unknown])
+	ffffffffbc00128d [unknown] ([unknown])
+	    78c1e44a2354 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449625d [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44908bd [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e448f523 _dl_catch_exception+0xa3 (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4490d45 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44add1f [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.338986:       6863 cycles:Pu: 
+	    78c1e44a1b5a [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44a2255 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449625d [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44908bd [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e448f523 _dl_catch_exception+0xa3 (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4490d45 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44add1f [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339019:       6399 cycles:Pu: 
+	    78c1e4499133 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449461a [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4496000 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44908bd [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e448f523 _dl_catch_exception+0xa3 (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4490d45 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44add1f [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339113:       5954 cycles:Pu: 
+	ffffffffbc001280 [unknown] ([unknown])
+	    78c1e449541e [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4496000 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44908bd [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e448f523 _dl_catch_exception+0xa3 (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4490d45 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44add1f [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339135:       5561 cycles:Pu: 
+	    78c1e44a1b5a [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44a2255 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449625d [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44908bd [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e448f523 _dl_catch_exception+0xa3 (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4490d45 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44add1f [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339153:       4982 cycles:Pu: 
+	    78c1e44948ea [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4496000 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44908bd [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e448f523 _dl_catch_exception+0xa3 (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4490d45 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44add1f [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339242:       4794 cycles:Pu: 
+	    78c1e44b3abe [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4496000 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44908bd [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e448f523 _dl_catch_exception+0xa3 (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4490d45 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44add1f [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339252:       4717 cycles:Pu: 
+	    78c1e44a1b5a [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44a2255 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449625d [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44908bd [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e448f523 _dl_catch_exception+0xa3 (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4490d45 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44add1f [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339265:       4231 cycles:Pu: 
+	ffffffffbc104104 [unknown] ([unknown])
+	ffffffffbc104110 [unknown] ([unknown])
+	ffffffffbc000116 [unknown] ([unknown])
+	    78c1e44b20f8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44962ac [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44908bd [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e448f523 _dl_catch_exception+0xa3 (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4490d45 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44add1f [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339344:       4558 cycles:Pu: 
+	    78c1e44b3abe [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4496000 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44908bd [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e448f523 _dl_catch_exception+0xa3 (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4490d45 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44add1f [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339362:       4648 cycles:Pu: 
+	ffffffffbc001280 [unknown] ([unknown])
+	    78c1e44b1e0b [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4496000 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44908bd [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e448f523 _dl_catch_exception+0xa3 (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4490d45 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44add1f [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339444:       4183 cycles:Pu: 
+	    78c1e4494f72 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4496000 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44908bd [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e448f523 _dl_catch_exception+0xa3 (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4490d45 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44add1f [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339466:       4106 cycles:Pu: 
+	    78c1e44b2185 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4491578 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44add1f [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339474:       3691 cycles:Pu: 
+	    78c1e44b3b35 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4495e74 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44908bd [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e448f523 _dl_catch_exception+0xa3 (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4490d45 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44add1f [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339482:       3555 cycles:Pu: 
+	    78c1e44908ab [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e448f523 _dl_catch_exception+0xa3 (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4490d45 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44add1f [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339490:       3969 cycles:Pu: 
+	    78c1e449e7c0 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449146d [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44add1f [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339499:       4431 cycles:Pu: 
+	    78c1e44b3ac2 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44a19c0 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ab6e4 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e448f41c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ade94 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339510:       4953 cycles:Pu: 
+	    78c1e44989b4 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44a19c0 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ab6e4 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e448f41c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ade94 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339519:       5467 cycles:Pu: 
+	    78c1e44b3b35 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44a19c0 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ab6e4 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e448f41c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ade94 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339528:       5745 cycles:Pu: 
+	    78c1e44b3acc [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44a19c0 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ab6e4 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e448f41c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ade94 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339538:       6255 cycles:Pu: 
+	    78c1e44a1205 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44a19c0 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ab6e4 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e448f41c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ade94 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339559:       6790 cycles:Pu: 
+	    78c1e44a1205 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44a19c0 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ab6e4 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e448f41c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ade94 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339578:       7325 cycles:Pu: 
+	ffffffffbc001280 [unknown] ([unknown])
+	    78c1e44b223c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449892c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449f004 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449f7f3 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aba40 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aed75 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339604:       7105 cycles:Pu: 
+	    78c1e449b89b [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44adfde [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339622:       6961 cycles:Pu: 
+	    78c1e449b892 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44adfde [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339634:       6606 cycles:Pu: 
+	    78c1e449c586 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44adfde [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339646:       6494 cycles:Pu: 
+	    78c1e4496e53 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44adfde [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339654:       6837 cycles:Pu: 
+	    78c1e4497079 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44adfde [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339660:       7016 cycles:Pu: 
+	    78c1e44970d0 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44adfde [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339667:       7908 cycles:Pu: 
+	    78c1e44979ab [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44adfde [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339675:       9340 cycles:Pu: 
+	    78c1e44979ab [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44adfde [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339685:      10821 cycles:Pu: 
+	    78c1e4496e8f [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44adfde [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339694:      12266 cycles:Pu: 
+	    78c1e4496e53 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44adfde [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339703:      13113 cycles:Pu: 
+	    78c1e4496e6c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44adfde [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339713:      14323 cycles:Pu: 
+	    78c1e44b4c54 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449711b [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44adfde [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339723:      15694 cycles:Pu: 
+	    78c1e4497ab3 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44adfde [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339734:      16920 cycles:Pu: 
+	    78c1e44979d3 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44adfde [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339760:      18041 cycles:Pu: 
+	    78c1e3ed0614 wcslen+0x4 (/usr/lib/libc.so.6)
+	    78c1e44adfde [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339778:      19094 cycles:Pu: 
+	    78c1e4497b37 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339789:      18141 cycles:Pu: 
+	    78c1e4496e53 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339801:      17843 cycles:Pu: 
+	    78c1e44970d0 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339818:      18686 cycles:Pu: 
+	    78c1e4496e53 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339830:      19589 cycles:Pu: 
+	    78c1e44b4387 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449711b [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339859:      19378 cycles:Pu: 
+	    78c1e449b89b [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339898:      20067 cycles:Pu: 
+	ffffffffbc001280 [unknown] ([unknown])
+	    78c1e449b867 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339918:      18936 cycles:Pu: 
+	    78c1e4497079 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339930:      17521 cycles:Pu: 
+	    78c1e4497ab3 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339940:      17010 cycles:Pu: 
+	    78c1e449be71 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339951:      17866 cycles:Pu: 
+	    78c1e44970d0 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339963:      18884 cycles:Pu: 
+	    78c1e449bec2 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339977:      19910 cycles:Pu: 
+	    78c1e449be71 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.339992:      20768 cycles:Pu: 
+	    78c1e449bec2 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340005:      20996 cycles:Pu: 
+	    78c1e4497ab3 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340017:      21176 cycles:Pu: 
+	    78c1e4496e11 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340030:      21869 cycles:Pu: 
+	    78c1e4497079 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340043:      22618 cycles:Pu: 
+	    78c1e449710f [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340056:      23212 cycles:Pu: 
+	    78c1e449709e [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340070:      23827 cycles:Pu: 
+	    78c1e44970d0 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340084:      24342 cycles:Pu: 
+	    78c1e4497079 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340098:      24847 cycles:Pu: 
+	    78c1e4496c80 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449711b [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340112:      25223 cycles:Pu: 
+	    78c1e449bec2 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340126:      25638 cycles:Pu: 
+	    78c1e44979de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340141:      25938 cycles:Pu: 
+	    78c1e44979c4 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340155:      26247 cycles:Pu: 
+	    78c1e4497ab3 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340170:      26542 cycles:Pu: 
+	    78c1e449bec2 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340187:      26798 cycles:Pu: 
+	    78c1e449bf77 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340202:      27030 cycles:Pu: 
+	    78c1e4497ab3 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340217:      26741 cycles:Pu: 
+	    78c1e4496c1c [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449711b [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340233:      26924 cycles:Pu: 
+	    78c1e44b3b04 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449711b [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340247:      27092 cycles:Pu: 
+	    78c1e44970dc [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340262:      27198 cycles:Pu: 
+	    78c1e4496e53 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340278:      27387 cycles:Pu: 
+	    78c1e44970d2 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340293:      27541 cycles:Pu: 
+	    78c1e44979de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340311:      27672 cycles:Pu: 
+	    78c1e44979de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340326:      27813 cycles:Pu: 
+	    78c1e44970c4 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340356:      27349 cycles:Pu: 
+	    78c1e4496e11 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340371:      24753 cycles:Pu: 
+	    78c1e44979de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340384:      23265 cycles:Pu: 
+	    78c1e4496bf8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449711b [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340398:      23547 cycles:Pu: 
+	    78c1e44970c0 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340411:      24069 cycles:Pu: 
+	    78c1e44970d2 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340425:      24448 cycles:Pu: 
+	    78c1e44979de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340439:      25004 cycles:Pu: 
+	    78c1e44979de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340456:      25444 cycles:Pu: 
+	    78c1e44970e8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340471:      25837 cycles:Pu: 
+	    78c1e44970e8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340485:      25554 cycles:Pu: 
+	    78c1e44979de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340500:      25796 cycles:Pu: 
+	    78c1e449706d [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340514:      26101 cycles:Pu: 
+	    78c1e44979ab [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340529:      26390 cycles:Pu: 
+	    78c1e4496e2a [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340544:      26635 cycles:Pu: 
+	    78c1e44970c4 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340559:      26929 cycles:Pu: 
+	    78c1e4497ab3 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340574:      27135 cycles:Pu: 
+	    78c1e44979de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340589:      27267 cycles:Pu: 
+	    78c1e44979ab [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340610:      27435 cycles:Pu: 
+	    78c1e44979d3 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340625:      27568 cycles:Pu: 
+	    78c1e4497092 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340641:      26665 cycles:Pu: 
+	    78c1e44979c4 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340660:      26778 cycles:Pu: 
+	    78c1e4496c05 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449711b [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340675:      26919 cycles:Pu: 
+	    78c1e4497a15 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340690:      26283 cycles:Pu: 
+	    78c1e44970d0 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340705:      26415 cycles:Pu: 
+	    78c1e4496ea1 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340720:      26648 cycles:Pu: 
+	    78c1e44979de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340734:      26845 cycles:Pu: 
+	    78c1e44979ab [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340749:      27008 cycles:Pu: 
+	    78c1e44970d0 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340764:      27205 cycles:Pu: 
+	    78c1e44979ab [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340780:      27387 cycles:Pu: 
+	    78c1e44970d0 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340795:      27539 cycles:Pu: 
+	    78c1e44970d2 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340810:      27663 cycles:Pu: 
+	    78c1e4497ab3 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340825:      27819 cycles:Pu: 
+	    78c1e44970c0 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340840:      27925 cycles:Pu: 
+	    78c1e44979c4 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340856:      28068 cycles:Pu: 
+	    78c1e4497092 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340871:      28138 cycles:Pu: 
+	    78c1e44970f7 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340887:      28227 cycles:Pu: 
+	    78c1e44970c4 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340902:      28267 cycles:Pu: 
+	    78c1e4496e49 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e4497aae [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449bf87 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae071 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.340939:      28333 cycles:Pu: 
+	    78c1e4498613 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e449873a [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e448f034 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ae136 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aa786 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44ac0de [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aadc8 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.341014:      28392 cycles:Pu: 
+	    78c1e40c24da std::ios_base_library_init()+0x2a (/usr/lib/libstdc++.so.6.0.33)
+	    78c1e40aa1cd _GLOBAL__sub_I.00090_globals_io.cc+0x1d (/usr/lib/libstdc++.so.6.0.33)
+	    78c1e44925b7 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44926ad [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aae20 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.341056:      26379 cycles:Pu: 
+	    78c1e40eedb0 std::ctype<wchar_t>::_M_initialize_ctype()+0x70 (/usr/lib/libstdc++.so.6.0.33)
+	    78c1e40dd8b0 std::locale::_Impl::_Impl(unsigned long)+0x640 (/usr/lib/libstdc++.so.6.0.33)
+	    78c1e40de125 std::locale::_S_initialize_once()+0x35 (/usr/lib/libstdc++.so.6.0.33)
+	    78c1e40de1e1 std::locale::locale()+0x21 (/usr/lib/libstdc++.so.6.0.33)
+	    78c1e40c259b std::ios_base_library_init()+0xeb (/usr/lib/libstdc++.so.6.0.33)
+	    78c1e40aa1cd _GLOBAL__sub_I.00090_globals_io.cc+0x1d (/usr/lib/libstdc++.so.6.0.33)
+	    78c1e44925b7 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44926ad [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aae20 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.341081:      23767 cycles:Pu: 
+	    78c1e40cd044 std::moneypunct<wchar_t, true>::_M_initialize_moneypunct(__locale_struct*, char const*)+0x4 (/usr/lib/libstdc++.so.6.0.33)
+	    78c1e40ddf72 std::locale::_Impl::_Impl(unsigned long)+0xd02 (/usr/lib/libstdc++.so.6.0.33)
+	    78c1e40de125 std::locale::_S_initialize_once()+0x35 (/usr/lib/libstdc++.so.6.0.33)
+	    78c1e40de1e1 std::locale::locale()+0x21 (/usr/lib/libstdc++.so.6.0.33)
+	    78c1e40c259b std::ios_base_library_init()+0xeb (/usr/lib/libstdc++.so.6.0.33)
+	    78c1e40aa1cd _GLOBAL__sub_I.00090_globals_io.cc+0x1d (/usr/lib/libstdc++.so.6.0.33)
+	    78c1e44925b7 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44926ad [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44aae20 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+
+a.out  108705  3421.341118:      21898 cycles:Pu: 
+	    78c1e3e34eae __libc_start_main+0x6e (/usr/lib/libc.so.6)
+	    5e84c14310b5 _start+0x25 (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+
+a.out  108705  3422.781424:      20929 cycles:Pu: 
+	    78c1e413d945 std::__use_cache<std::__numpunct_cache<char> >::operator()(std::locale const&) const [clone .isra.0]+0x15 (/usr/lib/libstdc++.so.6.0.33)
+	    78c1e4146f7a std::istreambuf_iterator<char, std::char_traits<char> > std::num_get<char, std::istreambuf_iterator<char, std::char_traits<char> > >::_M_extract_int<long>(std::istreambuf_iterator<char, std::char_traits<char> >, std::istreambuf_iterator<char, std::char_traits<char> >, std::ios_base&, std::_Ios_Iostate&, long&) const+0x5a (/usr/lib/libstdc++.so.6.0.33)
+	    78c1e412f6ef std::istream::operator>>(int&)+0x8f (/usr/lib/libstdc++.so.6.0.33)
+	    5e84c143163f main+0x2d (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+	    78c1e3e34e08 [unknown] (/usr/lib/libc.so.6)
+	    78c1e3e34ecc __libc_start_main+0x8c (/usr/lib/libc.so.6)
+	    5e84c14310b5 _start+0x25 (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+
+a.out  108705  3422.781483:      19409 cycles:Pu: 
+	ffffffffbc001298 [unknown] ([unknown])
+	    78c1e3e7425d [unknown] (/usr/lib/libc.so.6)
+	    78c1e3e675d6 __isoc23_scanf+0xb6 (/usr/lib/libc.so.6)
+	    5e84c14311c8 solve()+0x3f (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+	    5e84c1431646 main+0x34 (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+	    78c1e3e34e08 [unknown] (/usr/lib/libc.so.6)
+	    78c1e3e34ecc __libc_start_main+0x8c (/usr/lib/libc.so.6)
+	    5e84c14310b5 _start+0x25 (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+
+a.out  108705  3422.781552:      19409 cycles:Pu: 
+	ffffffffbc001280 [unknown] ([unknown])
+	    78c1e3f1ac21 read+0x11 (/usr/lib/libc.so.6)
+	    78c1e3e9c7c2 _IO_default_uflow+0x32 (/usr/lib/libc.so.6)
+	    78c1e3e74ea7 [unknown] (/usr/lib/libc.so.6)
+	    78c1e3e675d6 __isoc23_scanf+0xb6 (/usr/lib/libc.so.6)
+	    5e84c1431259 solve()+0xd0 (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+	    5e84c1431646 main+0x34 (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+	    78c1e3e34e08 [unknown] (/usr/lib/libc.so.6)
+	    78c1e3e34ecc __libc_start_main+0x8c (/usr/lib/libc.so.6)
+	    5e84c14310b5 _start+0x25 (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+
+a.out  108705  3422.781592:      17615 cycles:Pu: 
+	    78c1e3e8d254 _IO_file_doallocate+0x4 (/usr/lib/libc.so.6)
+	    78c1e3e9a7a8 _IO_file_overflow+0x1b8 (/usr/lib/libc.so.6)
+	    78c1e3e9b2c8 _IO_file_xsputn+0xd8 (/usr/lib/libc.so.6)
+	    78c1e3e8e9c3 _IO_fwrite+0xc3 (/usr/lib/libc.so.6)
+	    78c1e414ff4c std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)+0x1cc (/usr/lib/libstdc++.so.6.0.33)
+	    78c1e415030e std::basic_ostream<char, std::char_traits<char> >& std::operator<< <std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*)+0x2e (/usr/lib/libstdc++.so.6.0.33)
+	    5e84c14315a0 solve()+0x417 (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+	    5e84c1431646 main+0x34 (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+	    78c1e3e34e08 [unknown] (/usr/lib/libc.so.6)
+	    78c1e3e34ecc __libc_start_main+0x8c (/usr/lib/libc.so.6)
+	    5e84c14310b5 _start+0x25 (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+
+a.out  108705  3422.781618:      15912 cycles:Pu: 
+	    78c1e414f470 std::ostream::put(char)+0x0 (/usr/lib/libstdc++.so.6.0.33)
+	    5e84c14315b2 solve()+0x429 (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+	    5e84c1431646 main+0x34 (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+	    78c1e3e34e08 [unknown] (/usr/lib/libc.so.6)
+	    78c1e3e34ecc __libc_start_main+0x8c (/usr/lib/libc.so.6)
+	    5e84c14310b5 _start+0x25 (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+
+a.out  108705  3422.781662:      14701 cycles:Pu: 
+	    78c1e3e7a347 [unknown] (/usr/lib/libc.so.6)
+	    78c1e3e675d6 __isoc23_scanf+0xb6 (/usr/lib/libc.so.6)
+	    5e84c1431259 solve()+0xd0 (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+	    5e84c1431646 main+0x34 (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+	    78c1e3e34e08 [unknown] (/usr/lib/libc.so.6)
+	    78c1e3e34ecc __libc_start_main+0x8c (/usr/lib/libc.so.6)
+	    5e84c14310b5 _start+0x25 (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+
+a.out  108705  3422.781709:      13996 cycles:Pu: 
+	    78c1e41201a0 __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow()+0x0 (/usr/lib/libstdc++.so.6.0.33)
+	    78c1e412f6ef std::istream::operator>>(int&)+0x8f (/usr/lib/libstdc++.so.6.0.33)
+	    5e84c14313bf solve()+0x236 (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+	    5e84c1431646 main+0x34 (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+	    78c1e3e34e08 [unknown] (/usr/lib/libc.so.6)
+	    78c1e3e34ecc __libc_start_main+0x8c (/usr/lib/libc.so.6)
+	    5e84c14310b5 _start+0x25 (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+
+a.out  108705  3422.781734:      12876 cycles:Pu: 
+	    78c1e3e4e334 __cxa_finalize+0x154 (/usr/lib/libc.so.6)
+	    78c1e40aa788 __do_global_dtors_aux+0x28 (/usr/lib/libstdc++.so.6.0.33)
+	    78c1e448f0f2 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44923ee [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e3e4e891 [unknown] (/usr/lib/libc.so.6)
+	    78c1e3e4e95e [unknown] (/usr/lib/libc.so.6)
+	    78c1e3e34e0f [unknown] (/usr/lib/libc.so.6)
+	    78c1e3e34ecc __libc_start_main+0x8c (/usr/lib/libc.so.6)
+	    5e84c14310b5 _start+0x25 (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+
+a.out  108705  3422.781764:      11799 cycles:Pu: 
+	    78c1e4152229 std::basic_ostream<wchar_t, std::char_traits<wchar_t> >::flush()+0x59 (/usr/lib/libstdc++.so.6.0.33)
+	    78c1e40c2c9e std::ios_base::Init::~Init()+0x6e (/usr/lib/libstdc++.so.6.0.33)
+	    78c1e3e4e340 __cxa_finalize+0x160 (/usr/lib/libc.so.6)
+	    78c1e40aa788 __do_global_dtors_aux+0x28 (/usr/lib/libstdc++.so.6.0.33)
+	    78c1e448f0f2 [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e44923ee [unknown] (/usr/lib/ld-linux-x86-64.so.2)
+	    78c1e3e4e891 [unknown] (/usr/lib/libc.so.6)
+	    78c1e3e4e95e [unknown] (/usr/lib/libc.so.6)
+	    78c1e3e34e0f [unknown] (/usr/lib/libc.so.6)
+	    78c1e3e34ecc __libc_start_main+0x8c (/usr/lib/libc.so.6)
+	    5e84c14310b5 _start+0x25 (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+
+a.out  108705  3422.781799:      11255 cycles:Pu: 
+	    78c1e3e9cfca _IO_flush_all+0x5a (/usr/lib/libc.so.6)
+	    78c1e3e9d66d [unknown] (/usr/lib/libc.so.6)
+	    78c1e3e4e914 [unknown] (/usr/lib/libc.so.6)
+	    78c1e3e4e95e [unknown] (/usr/lib/libc.so.6)
+	    78c1e3e34e0f [unknown] (/usr/lib/libc.so.6)
+	    78c1e3e34ecc __libc_start_main+0x8c (/usr/lib/libc.so.6)
+	    5e84c14310b5 _start+0x25 (/home/jiahui/workspace/cpp/codefoces/r979/a.out)
+
