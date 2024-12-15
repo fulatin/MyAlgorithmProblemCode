@@ -1,5 +1,7 @@
 /* THIS FILE WILL BE OVERWRITTEN BY DEV-C++ */
 /* DO NOT EDIT! */
 
+#include "项目_4_private.rc"
+#include "项目_4_private.res"
 
 A ICON "项目 4.ico"

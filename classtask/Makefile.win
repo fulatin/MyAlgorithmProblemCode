@@ -7,7 +7,7 @@ WINDRES  = windres.exe
 RES      = 项目_4_private.res
 OBJ      = main.o $(RES)
 LINKOBJ  = main.o $(RES)
-LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/opt/lib" -L"C:/Users/Administrator/Desktop/include" -L"C:/Users/Administrator/Desktop/lib/VC2015/x64" -leasyXa -leasyX -leasyXw -g3
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/opt/lib" -g3
 INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/11.4.0/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/opt/include"
 CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/11.4.0/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/11.4.0/include/c++" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/opt/include"
 BIN      = "项目 4.exe"
@@ -28,6 +28,6 @@ $(BIN): $(OBJ)
 main.o: main.cpp
 	$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
 
-项目_4_private.res: 项目_4_private.rc 
+项目_4_private.res: 项目_4_private.rc 项目_4_private.rc 项目_4_private.res
 	$(WINDRES) -i 项目_4_private.rc --input-format=rc -o 项目_4_private.res -O coff 
 
