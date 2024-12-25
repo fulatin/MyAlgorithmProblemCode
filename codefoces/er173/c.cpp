@@ -5,11 +5,11 @@
 
 using namespace std;
 
-pair<int, int> maxGap(vector<int> a) {
-  int maxs = a[a.size() - 1];
-  int mins = a[a.size() - 1];
-  vector<int> maxv(a.size()), minv(a.size());
-  for (int i = a.size() - 1; i >= 1; i--) {
+pair<long long, long long> maxGap(vector<long long> a) {
+  long long maxs = a[a.size() - 1];
+  long long mins = a[a.size() - 1];
+  vector<long long> maxv(a.size()), minv(a.size());
+  for (long long i = a.size() - 1; i >= 0; i--) {
     if (a[i] < mins) {
       mins = a[i];
     }
@@ -19,9 +19,9 @@ pair<int, int> maxGap(vector<int> a) {
     maxv[i] = maxs;
     minv[i] = mins;
   }
-  int mingap = 0x3fffffff;
-  int maxgap = -0x3fffffff;
-  for (int i = 1; i <= a.size() - 1; ++i) {
+  long long mingap = 0;
+  long long maxgap = 0;
+  for (long long i = 0; i <= a.size() - 1; ++i) {
     mingap = min(mingap, minv[i] - a[i]);
     maxgap = max(maxgap, maxv[i] - a[i]);
   }
@@ -29,53 +29,62 @@ pair<int, int> maxGap(vector<int> a) {
 }
 
 void solve() {
-  int n;
+  long long n;
   cin >> n;
-  int bpos = n / 2;
-  vector<int> arr(n + 1);
-  for (int i = 1; i <= n; ++i) {
+  long long bpos = (n + 1) / 2;
+  vector<long long> arr(n + 1);
+  for (long long i = 1; i <= n; ++i) {
     cin >> arr[i];
-    if (arr[i] != 1 || arr[i] != -1) {
+    if (arr[i] != 1 && arr[i] != -1) {
       bpos = i;
     }
   }
-  int spval = arr[bpos];
-  vector<int> larr(bpos);
-  vector<int> rarr(n - bpos + 1);
-  for (int i = 1; i < bpos; ++i) {
+  // if (n == 1) {
+  //   cout << 2 << endl;
+  //   cout << 0 << ' ' << arr[1] << endl;
+  //   return ;
+  // }
+
+  long long spval = arr[bpos];
+  vector<long long> larr(bpos);
+  vector<long long> rarr(n - bpos + 1);
+  for (long long i = 1; i < bpos; ++i) {
     larr[i] = arr[i] + larr[i - 1];
   }
-  for (int i = bpos + 1; i <= n; ++i) {
+  for (long long i = bpos + 1; i <= n; ++i) {
     rarr[i - bpos] = arr[i] + rarr[i - bpos - 1];
   }
-  set<int> ans;
+  set<long long> ans;
   auto [min1, max1] = maxGap(larr);
   auto [min2, max2] = maxGap(rarr);
-  for (int i = min1; i <= max1; ++i) {
+  for (long long i = min1; i <= max1; ++i) {
     ans.insert(i);
   }
-  for (int i = min2; i <= max2; ++i) {
+  for (long long i = min2; i <= max2; ++i) {
     ans.insert(i);
   }
-  int lmax = -0x3fffffff;
-  int lmin = 0x3fffffff;
-  int rmax = -0x3fffffff;
-  int rmin = 0x3fffffff;
-  int lsum = 0;
-  for (int i = bpos - 1; i >= 1; i--) {
+  // prlong longf("ss %d %d %d %d\n", min1, max1, min2, max2);
+  long long lmax = 0;
+  long long lmin = 0;
+  long long rmax = 0;
+  long long rmin = 0;
+  long long lsum = 0;
+  for (long long i = bpos - 1; i >= 1; i--) {
     lsum += arr[i];
     lmax = max(lsum, lmax);
     lmin = min(lmin, lsum);
   }
-  int rsum = 0;
-  for (int i = bpos + 1; i <= n; ++i) {
+  long long rsum = 0;
+  for (long long i = bpos + 1; i <= n; ++i) {
     rsum += arr[i];
     rmax = max(rmax, rsum);
     rmin = min(rmin, rsum);
   }
-  int lbound = arr[bpos] + lmin + rmin;
-  int rbound = arr[bpos] + lmax + rmax;
-  for (int i = lbound; i <= rbound; ++i) {
+  // prlong longf("lmin %d lmax  %d rmin %d rmax %d\n", lmin, lmax, rmin, rmax);
+  long long lbound = arr[bpos] + lmin + rmin;
+  long long rbound = arr[bpos] + lmax + rmax;
+  // prlong longf(" lr bound :%d %d\n", lbound, rbound);
+  for (long long i = lbound; i <= rbound; ++i) {
     ans.insert(i);
   }
   cout << ans.size() << endl;
@@ -86,7 +95,7 @@ void solve() {
 }
 
 int main() {
-  int t;
+  long long t;
   cin >> t;
   while (t--)
     solve();
